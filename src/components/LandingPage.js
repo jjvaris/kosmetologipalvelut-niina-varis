@@ -44,7 +44,7 @@ const LandingPage = () => {
             <AnchorLink href="#esittely">Esittely</AnchorLink>
             <AnchorLink href="#hinnasto">Hinnasto</AnchorLink>
             <AnchorLink href="#ota-yhteytta">Ota Yhteyttä</AnchorLink>
-            <AnchorLink href="#yhteystiedot">Yhteystiedot</AnchorLink>
+            <AnchorLink href="#map">Yhteystiedot</AnchorLink>
           </nav>
           <header className="app__header fade-in">
             <div className="app__title">
