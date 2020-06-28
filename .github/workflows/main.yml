@@ -11,6 +11,7 @@ jobs:
       uses: Borales/actions-yarn@v2.3.0
       with:
         cmd: install
+    - run: rm -rf node_modules/gh-pages/.cache
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
