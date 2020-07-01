@@ -477,7 +477,7 @@ svg {
   font: var(--global--text-font);
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .form__button:hover:enabled {
