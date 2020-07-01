@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6668299.chunk.css",
+    "main.css": "/static/css/main.a22466d2.chunk.css",
     "main.js": "/static/js/main.d3e8a863.chunk.js",
     "main.js.map": "/static/js/main.d3e8a863.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.52c43697.chunk.js": "/static/js/2.52c43697.chunk.js",
     "static/js/2.52c43697.chunk.js.map": "/static/js/2.52c43697.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8864ffcc182dd577a63d22d9439cddb1.js": "/precache-manifest.8864ffcc182dd577a63d22d9439cddb1.js",
+    "precache-manifest.74a4b64de25e22788b5569c682a74d6c.js": "/precache-manifest.74a4b64de25e22788b5569c682a74d6c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a6668299.chunk.css.map": "/static/css/main.a6668299.chunk.css.map",
+    "static/css/main.a22466d2.chunk.css.map": "/static/css/main.a22466d2.chunk.css.map",
     "static/media/brushes.jpg": "/static/media/brushes.958dce7e.jpg",
     "static/media/jane_iredale.jpg": "/static/media/jane_iredale.febde53b.jpg",
     "static/media/landing.jpg": "/static/media/landing.a1b2e72f.jpg",
