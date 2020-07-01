@@ -20,7 +20,7 @@ export async function getInstagramFeed() {
     return cachedFeed;
   }
   const { data } = await axios.get(
-    `https://www.instagram.com/kosmetologikotiisi/`
+    `https://www.instagram.com/kosmetologipalvelutniinavaris/`
   );
 
   const jsonObject = data
@@ -36,15 +36,15 @@ export async function getInstagramFeed() {
       .edges;
 
   const images = feed
-    .filter(e => e.node.__typename === 'GraphImage')
-    .map(e => {
+    .filter((e) => e.node.__typename === 'GraphImage')
+    .map((e) => {
       const {
         display_url,
         shortcode,
         edge_media_preview_like,
         edge_media_to_comment,
         accessibility_caption,
-        thumbnail_resources
+        thumbnail_resources,
       } = e.node;
 
       return {
@@ -53,7 +53,7 @@ export async function getInstagramFeed() {
         likes: edge_media_preview_like.count,
         comments: edge_media_to_comment.count,
         caption: accessibility_caption,
-        thumbnails: thumbnail_resources
+        thumbnails: thumbnail_resources,
       };
     });
 

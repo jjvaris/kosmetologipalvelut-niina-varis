@@ -29,7 +29,7 @@ const MobileNav = ({ show, onHide }) => {
           <a href="https://www.facebook.com/kosmetologikotiisi/">
             <Facebook style={{ marginRight: '15px' }} />
           </a>
-          <a href="https://www.instagram.com/kosmetologikotiisi/">
+          <a href="https://www.instagram.com/kosmetologipalvelutniinavaris/">
             <Instagram />
           </a>
         </div>
