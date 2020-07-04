@@ -746,3 +746,15 @@ td.price-table__service {
   width: 100%;
   height: 100%;
 }
+
+.contact {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+@media only screen and (min-width: 500px) {
+  .contact {
+    text-align: left;
+  }
+}
