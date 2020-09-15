@@ -145,7 +145,7 @@ const PriceTable = () => (
         <td className="price-table__service price-table__service--special">
           Kulmien muotoilu sokeroinnilla
         </td>
-        <td className="price-table__price">5 €</td>
+        <td className="price-table__price">10 €</td>
       </tr>
       <tr className="price-table__row">
         <td className="price-table__service price-table__service--special">
