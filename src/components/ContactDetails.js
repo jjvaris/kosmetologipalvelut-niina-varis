@@ -23,10 +23,9 @@ const ContactDetails = () => (
         <div className="contact__office">
           <p>
             <a href="https://goo.gl/maps/KZbydxJmQrKjZtUg7">
-              <GoLocation /> Nepenmäenkatu 6A, 80200 Joensuu
+              <GoLocation /> Nepenmäenkatu 11 lt. 1, 80200 Joensuu
             </a>
           </p>
-          <p>Sisäänkäynti: Vetrea, Lehmuskoti</p>
           <p>Hoitola avoinna vain ajanvarauksella</p>
         </div>
       </div>
