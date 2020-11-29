@@ -22,7 +22,7 @@ const ContactDetails = () => (
         </div>
         <div className="contact__office">
           <p>
-            <a href="https://goo.gl/maps/KZbydxJmQrKjZtUg7">
+            <a href="https://goo.gl/maps/pEvK8eNbPVZCKPPw9">
               <GoLocation /> Nepenmäenkatu 11 lt. 1, 80200 Joensuu
             </a>
           </p>
