@@ -37,6 +37,12 @@ const PriceTable = () => (
       </tr>
       <tr className="price-table__row">
         <td className="price-table__service price-table__service--special">
+          Bikini string
+        </td>
+        <td className="price-table__price">30 €</td>
+      </tr>
+      <tr className="price-table__row">
+        <td className="price-table__service price-table__service--special">
           Kainalot
         </td>
         <td className="price-table__price">20 €</td>
