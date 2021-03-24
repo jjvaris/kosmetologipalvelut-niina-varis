@@ -22,7 +22,6 @@ export default function App() {
     getInstagramFeed().then((response) => setInstaFeed(response));
   }, []);
 
-  console.log(window.location.hash);
   if (window.location.hash === '#hinnasto/tulosta') {
     return <PrintPriceTable />;
   }

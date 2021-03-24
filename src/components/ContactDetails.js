@@ -31,7 +31,7 @@ const ContactDetails = () => (
       </div>
       <p style={{ marginTop: '40px' }}>Y-tunnus: 2254322-5</p>
       <div className="socials">
-        <a href="https://www.facebook.com/kosmetologikotiisi/">
+        <a href="https://www.facebook.com/kosmetologipalvelutniinavaris/">
           <Facebook style={{ marginRight: '15px' }} />
         </a>
         <a href="https://www.instagram.com/kosmetologipalvelutniinavaris/">
