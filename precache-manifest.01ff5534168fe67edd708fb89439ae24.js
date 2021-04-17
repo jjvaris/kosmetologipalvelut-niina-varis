@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86673e6445fcd171b76807fea37091d1",
+    "revision": "6dcf81624372b1119a472900f1b69e0c",
     "url": "/index.html"
   },
   {
-    "revision": "c346d4afe2dde05459f5",
-    "url": "/static/css/main.b2fce3c3.chunk.css"
+    "revision": "69ea8842f7268ae8a208",
+    "url": "/static/css/main.3d474a32.chunk.css"
   },
   {
-    "revision": "580de53ea47b07a8dc92",
-    "url": "/static/js/2.dc0aba1c.chunk.js"
+    "revision": "3f1488f3efb5fdb5d6b2",
+    "url": "/static/js/2.d5291673.chunk.js"
   },
   {
-    "revision": "c346d4afe2dde05459f5",
-    "url": "/static/js/main.c2fc66d0.chunk.js"
+    "revision": "69ea8842f7268ae8a208",
+    "url": "/static/js/main.5640181b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "958dce7ea079a444af655d997a10a101",
     "url": "/static/media/brushes.958dce7e.jpg"
-  },
-  {
-    "revision": "febde53b3c0c8759cf0beefaa4cf93b0",
-    "url": "/static/media/jane_iredale.febde53b.jpg"
   },
   {
     "revision": "a1b2e72f56f9db341727d58dc5c373ac",
