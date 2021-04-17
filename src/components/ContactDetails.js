@@ -10,6 +10,7 @@ const ContactDetails = () => (
         <div className="contact__person">
           <p>Niina Varis</p>
           <p>SKY-kosmetologi, lähihoitaja</p>
+          <p className="contact__reservations">Ajanvaraukset</p>
           <p>
             <a href="tel:0400586586">0400 586 586</a>
           </p>

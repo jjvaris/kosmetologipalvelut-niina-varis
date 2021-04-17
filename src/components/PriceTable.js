@@ -79,91 +79,15 @@ const PriceTable = () => (
       </tr>
       <tr className="price-table__row">
         <td className="price-table__service price-table__service--special">
-          Kulmakarvat kestovärjäyksen yhteydessä
-        </td>
-        <td className="price-table__price">5 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Useamman alueen sokerointi
-        </td>
-        <td className="price-table__price">Kysy tarjous!</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service">Meikit</td>
-        <td className="price-table__price">Alk. 40 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Juhla- / häämeikki + koemeikki
-        </td>
-        <td className="price-table__price">80 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Meikki usealle
-        </td>
-        <td className="price-table__price">Kysy tarjous!</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Juhlameikki
-        </td>
-        <td className="price-table__price">50 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Päivämeikki
-        </td>
-        <td className="price-table__price">40 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Meikkiopastus
-        </td>
-        <td className="price-table__price">40 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service">
-          Hoitojen yhteydessä kulmien ja ripsien kestovärjäys
-        </td>
-        <td className="price-table__price">Alk. 10 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Kulmien värjäys
-        </td>
-        <td className="price-table__price">10 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Ripsien värjäys
-        </td>
-        <td className="price-table__price">10 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Kulmien ja ripsien värjäys
-        </td>
-        <td className="price-table__price">18 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
           Kulmien muotoilu sokeroinnilla
         </td>
         <td className="price-table__price">10 €</td>
       </tr>
       <tr className="price-table__row">
         <td className="price-table__service price-table__service--special">
-          Kulmien muotoilu sokeroinnilla ja värjäys
+          Useamman alueen sokerointi
         </td>
-        <td className="price-table__price">15 €</td>
-      </tr>
-      <tr className="price-table__row">
-        <td className="price-table__service price-table__service--special">
-          Kulmien ja ripsien värjäys + kulmien muotoilu sokeroinnilla
-        </td>
-        <td className="price-table__price">23 €</td>
+        <td className="price-table__price">Kysy tarjous!</td>
       </tr>
     </tbody>
   </table>

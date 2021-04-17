@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import alexandriaLogo from '../static/alexandria-logo.png';
-import janeIredaleLogo from '../static/jane_iredale.jpg';
 import Instructions from './Instructions';
 import SmoothCollapse from 'react-smooth-collapse';
 
@@ -8,13 +7,9 @@ const Services = () => {
   const [showInstructions, setShowIntructions] = useState(false);
 
   return (
-    <section id="palvelut" className="">
+    <section id="palvelut" style={{ marginBottom: '1em' }}>
       <div className="content">
         <h1 style={{ marginBottom: '50px' }}>PALVELUT</h1>
-        {/* <p style={{ marginBottom: '30px' }}>
-          Sokeroinnit ja meikkaukset suoraan kotiisi Joensuussa ja sen
-          lähialueilla (max 15 km Joensuusta).
-        </p> */}
         <div className="service-img">
           <h2
             style={{
@@ -58,26 +53,6 @@ const Services = () => {
           >
             <Instructions />
           </SmoothCollapse>
-        </div>
-        <div className="sokerointi service-img">
-          <h2
-            style={{
-              fontSize: '1.4em',
-              marginTop: '50px',
-              marginBottom: '30px',
-            }}
-          >
-            MEIKKAUKSET
-          </h2>
-          <img
-            style={{ marginBottom: '20px' }}
-            src={janeIredaleLogo}
-            alt="Jane Iredale logo"
-          />
-          <p style={{ textAlign: 'start' }}>
-            Jane Iredale<sup>&reg;</sup> on 100% mineraalimeikkisarja, jonka
-            valmistuksessa käytetään ainoastaan puhtaita luonnon mineraaleja.
-          </p>
         </div>
       </div>
     </section>

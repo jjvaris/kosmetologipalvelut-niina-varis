@@ -753,6 +753,10 @@ td.price-table__service {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
+.contact__reservations:after {
+  content: ' \2193';
+}
+
 @media only screen and (min-width: 500px) {
   .contact {
     text-align: left;

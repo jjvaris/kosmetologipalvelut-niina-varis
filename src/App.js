@@ -9,17 +9,17 @@ import LandingPage from './components/LandingPage';
 import brushes from './static/brushes.jpg';
 import products from './static/products.jpg';
 import { Parallax } from 'react-parallax';
-import { getInstagramFeed } from './api';
+// import { getInstagramFeed } from './api';
 import InstagramFeed from './components/InstagramFeed';
 import ContactDetails from './components/ContactDetails';
 import Map from './components/Map';
 import PrintPriceTable from './components/PrintPriceTable';
 
 export default function App() {
-  const [instaFeed, setInstaFeed] = useState(undefined);
+  const [instaFeed] = useState(undefined);
 
   useEffect(() => {
-    getInstagramFeed().then((response) => setInstaFeed(response));
+    // getInstagramFeed().then((response) => setInstaFeed(response));
   }, []);
 
   if (window.location.hash === '#hinnasto/tulosta') {
@@ -50,27 +50,6 @@ export default function App() {
               <span style={{ fontSize: '1.2em' }}>&#42;</span> Brasilialainen
               sokerointi vain täysi-ikäisille.
             </p>
-            {/* <p
-                style={{
-                  fontSize: '1.1em',
-                  maxWidth: '500px',
-                  textAlign: 'center',
-                  marginTop: '30px',
-                }}
-              >
-                Kutsu kotiisi myös kaverisi ja saat alennusta hoidoistasi -10%
-                per jokainen henkilö!
-              </p>
-              <p
-                style={{
-                  fontSize: '1.1em',
-                  maxWidth: '500px',
-                  textAlign: 'center',
-                }}
-              >
-                Ota rohkeasti yhteyttä ja pyydä tarjous esimerkiksi
-                meikki-illasta!
-              </p> */}
           </div>
         </section>
         <Parallax bgImage={brushes} bgImageAlt="Meikkejä" strength={200}>
