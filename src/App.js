@@ -58,7 +58,7 @@ export default function App() {
           bgImageAlt="Woman body"
           strength={200}
         >
-          <div className="bg-image-products" style={{ height: '500px' }} />
+          <div className="bg-image-products" />
         </Parallax>
         <section id="ota-yhteytta" className="dark">
           <div className="content">
