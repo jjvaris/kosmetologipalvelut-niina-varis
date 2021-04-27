@@ -6,7 +6,7 @@ import Services from './components/Services';
 import Footer from './components/Footer';
 import Introduction from './components/Introduction';
 import LandingPage from './components/LandingPage';
-import brushes from './static/brushes.jpg';
+import woman from './static/woman.jpg';
 import products from './static/products.jpg';
 import { Parallax } from 'react-parallax';
 // import { getInstagramFeed } from './api';
@@ -52,8 +52,13 @@ export default function App() {
             </p>
           </div>
         </section>
-        <Parallax bgImage={brushes} bgImageAlt="Meikkejä" strength={200}>
-          <div style={{ height: '300px' }} />
+        <Parallax
+          bgClassName="bg-img"
+          bgImage={woman}
+          bgImageAlt="Woman body"
+          strength={200}
+        >
+          <div className="bg-image-products" style={{ height: '500px' }} />
         </Parallax>
         <section id="ota-yhteytta" className="dark">
           <div className="content">
