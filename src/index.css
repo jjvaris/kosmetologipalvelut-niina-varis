@@ -558,7 +558,6 @@ td.price-table__service {
 .instructions {
   max-width: 700px;
   text-align: start;
-  border-bottom: 1px solid var(--global--dark-font-color);
 }
 
 /* Palvelut section sokerointi */

@@ -5,7 +5,6 @@ const Instructions = () => (
     <h3>Ennen sokerointia</h3>
     <ul>
       <li>Älä kuori sokeroitavaa aluetta 24h ennen hoitoa</li>
-      <li>Intiimialueen sokerointiin tullessasi huolehdi hygieniasta</li>
       <li>Sopiva karvanpituus on vähintään 2mm</li>
       <li>Älä kosteuta sokeroitavaa aluetta samana päivänä</li>
     </ul>
