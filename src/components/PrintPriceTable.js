@@ -5,12 +5,12 @@ import logo from '../static/logo2.jpg';
 export default function PrintPriceTable(props) {
   return (
     <section>
-      <div className="content" style={{ fontSize: '23px' }}>
+      <div className="content" style={{ fontSize: '22px' }}>
         <div className="service-img">
           <img
             src={logo}
             alt="Kosmetologipalvelut Niina Varis logo"
-            style={{ marginBottom: '10px', width: '250px' }}
+            style={{ marginBottom: '8px', width: '250px' }}
           />
         </div>
         <h1>HINNASTO</h1>
