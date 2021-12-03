@@ -48,7 +48,7 @@ export default function App() {
             <PriceTable />
             <p style={{ fontSize: '0.9em', textAlign: 'left' }}>
               <span style={{ fontSize: '1.2em' }}>&#42;</span> Brasilialainen
-              sokerointi vain täysi-ikäisille.
+              sokerointi vain täysi-ikäisille naisille.
             </p>
           </div>
         </section>
