@@ -24,8 +24,8 @@ const Instructions = () => (
       </li>
       <li>Älä käytä itseruskettavia aineita 24h aikana</li>
       <li>
-        Kuori ihosi kolmen päivän päästä sokeroinnista ja jatkossa 1-2 kertaa
-        viikossa
+        Kuori ihosi kolmen päivän päästä sokeroinnista ja jatkossa enintään
+        kerran viikossa
       </li>
       <li>Vältä hankaavia ja tiukkoja vaatteita sokeroinnin jälkeen</li>
       <li>Brasilialaisen sokeroinnin jälkeen huolehdi hyvin hygieniasta 24h</li>
