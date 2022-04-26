@@ -15,19 +15,19 @@ const PriceTable = () => (
         <td className="price-table__service price-table__service--special">
           Sääret
         </td>
-        <td className="price-table__price">30 €</td>
+        <td className="price-table__price">40 €</td>
       </tr>
       <tr className="price-table__row">
         <td className="price-table__service price-table__service--special">
           Reidet
         </td>
-        <td className="price-table__price">30 €</td>
+        <td className="price-table__price">40 €</td>
       </tr>
       <tr className="price-table__row">
         <td className="price-table__service price-table__service--special">
           Sääret ja reidet
         </td>
-        <td className="price-table__price">50 €</td>
+        <td className="price-table__price">60 €</td>
       </tr>
       <tr className="price-table__row">
         <td className="price-table__service price-table__service--special">
