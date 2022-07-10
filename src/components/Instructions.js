@@ -40,7 +40,7 @@ const Instructions = () => (
       <li>Auringon polttama iho</li>
       <li>Syylät sokeroitavalla alueella</li>
       <li>
-        Reitin-A -lääkitys, Retinol- hoito tai -lääkitys tai Roacutan- lääkitys
+        Retin-A -lääkitys, Retinol- hoito tai -lääkitys tai Roacutan- lääkitys
       </li>
       <li>Varsiluomet hoidettavalla alueella</li>
     </ul>

@@ -8,30 +8,30 @@ export default class ContactForm extends Component {
       name: '',
       email: '',
       phoneNumber: '',
-      message: ''
+      message: '',
     },
     errors: {},
     touched: false,
     submitted: false,
-    submitting: false
+    submitting: false,
   };
 
   validators = {
     name: {
-      isValid: input => input && input.length >= 0,
-      error: 'Nimi on pakollinen'
+      isValid: (input) => input && input.length >= 0,
+      error: 'Nimi on pakollinen',
     },
     email: {
-      isValid: input => input && input.length >= 0,
-      error: 'Sähköposti on pakollinen'
+      isValid: (input) => input && input.length >= 0,
+      error: 'Sähköposti on pakollinen',
     },
     message: {
-      isValid: input => input && input.length >= 0,
-      error: 'Viesti on pakollinen'
-    }
+      isValid: (input) => input && input.length >= 0,
+      error: 'Viesti on pakollinen',
+    },
   };
 
-  handleChange = event => {
+  handleChange = (event) => {
     if (!this.state.touched) {
       api.wakeUpEmailService();
     }
@@ -46,7 +46,7 @@ export default class ContactForm extends Component {
     this.setState({ formData });
   };
 
-  handleValidation = event => {
+  handleValidation = (event) => {
     if (!this.state.touched) return;
     const { name, value } = event.target;
     const { isValid, error } = this.validators[name];
@@ -57,7 +57,7 @@ export default class ContactForm extends Component {
     }
   };
 
-  handleSubmit = event => {
+  handleSubmit = (event) => {
     event.preventDefault();
     if (!this.formIsValid()) return;
     console.log('lähetetään form', this.state);
@@ -69,7 +69,7 @@ export default class ContactForm extends Component {
         from: email,
         name,
         phoneNumber,
-        message
+        message,
       })
       .then(() => {
         this.setState({
@@ -77,15 +77,15 @@ export default class ContactForm extends Component {
             name: '',
             email: '',
             phoneNumber: '',
-            message: ''
+            message: '',
           },
           errors: {},
           touched: false,
           submitted: true,
-          submitting: false
+          submitting: false,
         });
       })
-      .catch(error => {
+      .catch((error) => {
         console.error('Error:', error);
         const errors = { ...this.state.errors, submit: true };
         this.setState({ errors, submitting: false });
@@ -181,7 +181,7 @@ export default class ContactForm extends Component {
         {this.state.errors.submit && (
           <div className="form__api-error">
             Virhe viestin lähetyksessä. Yritä uudelleen tai ota yhteyttä
-            sähköpostitse varis.niina@gmail.com.
+            sähköpostitse info@niinapartanen.fi.
           </div>
         )}
         <button

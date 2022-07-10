@@ -1,6 +1,6 @@
 import React from 'react';
 import PriceTable from './PriceTable';
-import logo from '../static/logo2.jpg';
+import logo from '../static/logo.jpeg';
 
 export default function PrintPriceTable(props) {
   return (
@@ -9,7 +9,7 @@ export default function PrintPriceTable(props) {
         <div className="service-img">
           <img
             src={logo}
-            alt="Kosmetologipalvelut Niina Varis logo"
+            alt="Kosmetologipalvelut Niina Partanen logo"
             style={{ marginBottom: '8px', width: '250px' }}
           />
         </div>

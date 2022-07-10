@@ -8,7 +8,7 @@ const ContactDetails = () => (
       <h1>YHTEYSTIEDOT</h1>
       <div className="contact">
         <div className="contact__person">
-          <p>Niina Varis</p>
+          <p>Niina Partanen (os. Varis)</p>
           <p>SKY-kosmetologi, lähihoitaja</p>
           <p className="contact__reservations">Ajanvaraukset</p>
           <p>
@@ -18,7 +18,7 @@ const ContactDetails = () => (
             <a href="https://wa.me/358400586586">WhatsApp</a>
           </p>
           <p>
-            <a href="mailto:varis.niina@gmail.com">varis.niina@gmail.com</a>
+            <a href="mailto:info@niinapartanen.fi">info@niinapartanen.fi</a>
           </p>
         </div>
         <div className="contact__office">

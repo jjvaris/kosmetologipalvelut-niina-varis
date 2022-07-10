@@ -1,4 +1,4 @@
-# Kosmetologipalvelut Niina Varis 
+# Kosmetologipalvelut Niina Partanen
 
 [www.niinavaris.fi](https://niinavaris.fi).
 

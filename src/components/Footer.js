@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../static/logo2.jpg';
+import logo from '../static/logo.jpeg';
 import tietosuojaseloste from '../static/tietosuojaseloste.pdf';
 import { Date } from 'core-js';
 
@@ -9,7 +9,7 @@ const Footer = () => (
       <img
         className="kosmetologi-kotiisi-logo"
         src={logo}
-        alt="Kosmetologipalvelut Niina Varis logo"
+        alt="Kosmetologipalvelut Niina Partanen logo"
         style={{ marginBottom: '30px' }}
       />
     </div>
