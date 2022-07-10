@@ -7,7 +7,11 @@ const Introduction = () => (
       <div className="avatar">
         <img className="avatar__img" src={niina} alt="Niina Partanen" />
       </div>
-      <h1>NIINA PARTANEN (os. Varis)</h1>
+      <h1>
+        NIINA PARTANEN
+        <br />
+        (os. Varis)
+      </h1>
       <p>
         Koulutukseltani olen SKY-kosmetologi sekä lähihoitaja. Palveluihin
         kuuluvat ihokarvojen hellävarainen poisto sokeroinnilla yli kymmenen
