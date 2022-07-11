@@ -1,6 +1,6 @@
 # Kosmetologipalvelut Niina Partanen
 
-[www.niinavaris.fi](https://niinavaris.fi).
+[www.niinapartanen.fi](https://niinapartanen.fi).
 
 ## Available Scripts
 

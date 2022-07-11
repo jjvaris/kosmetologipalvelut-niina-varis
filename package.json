@@ -1,5 +1,5 @@
 {
-  "name": "kosmetologipalvelut-niina-varis",
+  "name": "kosmetologipalvelut-niina-partanen",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -31,5 +31,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://niinavaris.fi"
+  "homepage": "https://niinapartanen.fi"
 }
