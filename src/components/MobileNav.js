@@ -26,10 +26,10 @@ const MobileNav = ({ show, onHide }) => {
           Yhteystiedot
         </AnchorLink>
         <div className="modal__socials">
-          <a href="https://www.facebook.com/kosmetologipalvelutniinavaris/">
+          <a href="https://www.facebook.com/kosmetologipalvelutniina">
             <Facebook style={{ marginRight: '15px' }} />
           </a>
-          <a href="https://www.instagram.com/kosmetologipalvelutniinavaris/">
+          <a href="https://www.instagram.com/kosmetologipalvelutniina/">
             <Instagram />
           </a>
         </div>
