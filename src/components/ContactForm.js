@@ -110,7 +110,10 @@ export default class ContactForm extends Component {
       <div className="form-submitted">
         <div>
           <p>Kiitos viestistäsi.</p>
-          <p>Palaan asiaan mahdollisimman pian!</p>
+          <p>
+            Palaan asiaan mahdollisimman pian! Kannattaa tarkastaa myös
+            roskapostikansio kaiken varalta!
+          </p>
         </div>
       </div>
     ) : (
@@ -180,8 +183,9 @@ export default class ContactForm extends Component {
         </div>
         {this.state.errors.submit && (
           <div className="form__api-error">
-            Virhe viestin lähetyksessä. Yritä uudelleen tai ota yhteyttä
-            sähköpostitse info@niinapartanen.fi.
+            Virhe viestin lähetyksessä {':('}. Yritä uudelleen tai ota yhteyttä
+            sähköpostitse info@niinapartanen.fi tai laita viestiä{' '}
+            <a href="tel:0400586586">0400 586 586</a>.
           </div>
         )}
         <button

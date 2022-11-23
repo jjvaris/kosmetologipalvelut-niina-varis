@@ -2,16 +2,11 @@ import axios from 'axios';
 import cache from './cache';
 
 export function wakeUpEmailService() {
-  return axios.get(
-    'https://kosmetologi-kotiisi-email.herokuapp.com/api/health'
-  );
+  return axios.get('https://send-grid-email-sender.fly.dev/api/health');
 }
 
 export function sendEmail(data) {
-  return axios.post(
-    'https://kosmetologi-kotiisi-email.herokuapp.com/api/email',
-    data
-  );
+  return axios.post('https://send-grid-email-sender.fly.dev/api/email', data);
 }
 
 export async function getInstagramFeed() {
