@@ -110,10 +110,8 @@ export default class ContactForm extends Component {
       <div className="form-submitted">
         <div>
           <p>Kiitos viestistäsi.</p>
-          <p>
-            Palaan asiaan mahdollisimman pian! Kannattaa tarkastaa myös
-            roskapostikansio kaiken varalta!
-          </p>
+          <p>Palaan asiaan mahdollisimman pian!</p>
+          <p>Kannattaa tarkkailla myös roskapostikansiota kaiken varalta!</p>
         </div>
       </div>
     ) : (
