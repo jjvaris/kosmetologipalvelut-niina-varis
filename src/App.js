@@ -66,8 +66,8 @@ export default function App() {
           </div>
         </section>
         <Campaign
-          from={new Date('2023-04-24')}
-          until={new Date('2023-05-06')}
+          from={new Date('2023-04-23')}
+          until={new Date('2023-05-03')}
         />
         <Map />
         <ContactDetails />
