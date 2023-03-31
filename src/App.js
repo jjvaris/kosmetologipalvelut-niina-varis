@@ -30,7 +30,6 @@ export default function App() {
     <React.Fragment>
       <LandingPage />
       <main id="main">
-        <Campaign until={new Date('2019-12-23')} />
         <Services />
         <Parallax
           bgImage={products}
@@ -66,8 +65,13 @@ export default function App() {
             <ContactForm />
           </div>
         </section>
+        <Campaign
+          from={new Date('2023-04-24')}
+          until={new Date('2023-05-06')}
+        />
         <Map />
         <ContactDetails />
+
         {instaFeed && <InstagramFeed instaFeed={instaFeed} />}
       </main>
       <Footer />
