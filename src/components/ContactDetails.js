@@ -35,7 +35,7 @@ const ContactDetails = () => (
         <a href="https://www.facebook.com/kosmetologipalvelutniina">
           <Facebook style={{ marginRight: '15px' }} />
         </a>
-        <a href="https://www.instagram.com/kosmetologipalvelutniina/">
+        <a href="https://instagram.com/kosmetologipalvelutniina">
           <Instagram />
         </a>
       </div>
