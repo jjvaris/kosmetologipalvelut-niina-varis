@@ -2,6 +2,9 @@
 
 [www.niinapartanen.fi](https://niinapartanen.fi).
 
+## Tulostettava hinnasto
+[https://www.niinapartanen.fi/#hinnasto/tulosta](https://www.niinapartanen.fi/#hinnasto/tulosta)
+
 ## Available Scripts
 
 In the project directory, you can run:
