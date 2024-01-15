@@ -9,8 +9,6 @@ const Introduction = () => (
       </div>
       <h1>
         NIINA PARTANEN
-        <br />
-        (os. Varis)
       </h1>
       <p>
         Koulutukseltani olen SKY-kosmetologi sekä lähihoitaja. Palveluihin
