@@ -1,6 +1,6 @@
 import React from 'react';
 import PriceTable from './PriceTable';
-import logo from '../static/logo.jpeg';
+import logo from '../static/logo.jpg';
 
 export default function PrintPriceTable(props) {
   return (

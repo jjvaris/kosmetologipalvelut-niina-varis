@@ -7,13 +7,13 @@ import Footer from './components/Footer';
 import Introduction from './components/Introduction';
 import LandingPage from './components/LandingPage';
 import woman from './static/woman.jpg';
-import products from './static/products.jpg';
 import { Parallax } from 'react-parallax';
 // import { getInstagramFeed } from './api';
 import InstagramFeed from './components/InstagramFeed';
 import ContactDetails from './components/ContactDetails';
 import Map from './components/Map';
 import PrintPriceTable from './components/PrintPriceTable';
+import helmiLogo from './static/lapinnimen-helmi.png';
 
 export default function App() {
   const [instaFeed] = useState(undefined);
@@ -31,18 +31,41 @@ export default function App() {
       <LandingPage />
       <main id="main">
         <Services />
-        <Parallax
+        {/* <Parallax
           bgImage={products}
           bgImageAlt="Sokerointi tuotteita"
           strength={200}
           bgClassName="bg-img"
         >
           <div className="bg-image-products" />
-        </Parallax>
+        </Parallax> */}
+
+        <section className="helmi-mainos">
+          <div className="content">
+            <div className="helmi-mainos--content">
+              <div>
+                <h2 className="helmi-mainos--title">LUONNOLLISTA</h2>
+                <h2 className="helmi-mainos--title">LUKSUSTA</h2>
+              </div>
+              <p>Sokeroinnilla saat karvattoman ihon luonnollisesti.</p>
+              <p>
+                Lapinniemen Helmi tuotteet ovat 100% luonnollisia, vegaanisia ja
+                hajusteettomia.
+              </p>
+              <p>Luonnollista luksusta ihollesti - hellävaraisesti.</p>
+              <img
+                className="helmi-mainos--logo"
+                src={helmiLogo}
+                alt="Lapinniemen Helmi logo"
+              />
+            </div>
+          </div>
+        </section>
+
         <Introduction />
         <section id="hinnasto">
           <div className="content">
-            <h1>HINNASTO</h1>
+            <h2>HINNASTO</h2>
             {/* <p>Tuon mukanani hoitopöydän ja kaiken tarvittavan.</p> */}
             <PriceTable />
             <p style={{ fontSize: '0.9em', textAlign: 'left' }}>
@@ -61,7 +84,7 @@ export default function App() {
         </Parallax>
         <section id="ota-yhteytta" className="dark">
           <div className="content">
-            <h1>OTA YHTEYTTÄ</h1>
+            <h2>OTA YHTEYTTÄ</h2>
             <ContactForm />
           </div>
         </section>

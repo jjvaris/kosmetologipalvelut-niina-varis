@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import alexandriaLogo from '../static/alexandria-logo.png';
+import helmiLogo from '../static/lapinnimen-helmi.png';
 import Instructions from './Instructions';
 import SmoothCollapse from 'react-smooth-collapse';
 
@@ -7,19 +7,19 @@ const Services = () => {
   const [showInstructions, setShowIntructions] = useState(false);
 
   return (
-    <section id="palvelut" style={{ marginBottom: '1em' }}>
+    <section id="palvelut" style={{ marginBottom: '1em', flexGrow: '1' }}>
       <div className="content">
-        <h1 style={{ marginBottom: '50px' }}>PALVELUT</h1>
+        <h2 style={{ marginBottom: '50px' }}>PALVELUT</h2>
         <div className="service-img">
-          <h2
+          <h3
             style={{
               marginBottom: '50px',
               fontSize: '1.4em',
             }}
           >
             SOKEROINNIT
-          </h2>
-          <img src={alexandriaLogo} alt="Alexandria Professional logo" />
+          </h3>
+          <img src={helmiLogo} alt="Lapinniemen Helmi logo" />
         </div>
         <div className="sokerointi">
           {/* <h3 style={{ marginBottom: '30px' }}>
@@ -27,19 +27,17 @@ const Services = () => {
                 </h3> */}
           {/* <h3>Alexandria Professional Body Sugaring</h3> */}
           <p style={{ textAlign: 'start' }}>
-            Alexandria Professional<sup>&reg;</sup> sokerointi on
-            maailmanlaajuisesti johtava karvanpoistomenetelmä yli kahdenkymmenen
-            vuoden kokemuksella.
+            Lapinniemen Helmi<sup>&reg;</sup> sokerointituotteet on suunniteltu
+            herkälle suomalaiselle iholle. Tuotteet ovat eettisesti tuotettua
+            vegaanista luonnonkosmetiikkaa.
           </p>
           <p style={{ textAlign: 'start' }}>
-            Sokerointi on hygieeninen ja täysin vegaaninen
-            karvanpoistomenetelmä. Karvat poistetaan karvan kasvusuuntaan,
-            jolloin ne eivät katkeile ja iho pysyy karvattomana pidempään.
-            Sokeroinnilla voidaan poistaa jopa alle kahden millimetrin pituisia
-            karvoja. Sokerointi poistaa myös kuollutta ihosolukkoa, joten se on
-            mitä parhain vartalonkuorintamenetelmä. Sokeri ei tartu eläviin
-            ihosoluihin, joten sillä saadaan turvallisesti ja hellävaraisesti
-            poistettua myös intiimialueen karvat.
+            Sokerointi Lapinniemen Helmellä on hellävarainen
+            karvanpoistomenetelmä. Miellyttävän pehmeällä sokerimassalla karvat
+            poistuvat tehokkaasti ja hellävaraisesti. Sokerointi on silloin
+            nopeaa ja mahdollisimman kivutonta. Lapinniemen Helmi
+            sokerointituotteet sopivat myös herkälle iholle ja raskaana
+            oleville.
           </p>
           <button
             className="sokerointi__button"

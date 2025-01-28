@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../static/logo.jpeg';
+import logo from '../static/logo.jpg';
 import tietosuojaseloste from '../static/tietosuojaseloste.pdf';
 import { Date } from 'core-js';
 

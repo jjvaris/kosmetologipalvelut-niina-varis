@@ -1,13 +1,13 @@
 :root {
   /* Background colors */
-  --global--dark-bg-color: rgb(90, 141, 118);
+  --global--dark-bg-color: #fbf2ff;
   --global--bg-color: #ffffff;
   /* Font colors */
-  --global--dark-font-color: black;
+  --global--dark-font-color: rgb(26, 26, 26);
   --global--font-color: white;
   --global--font-color--hover: lightgray;
   --global--dark-font--white--hover: lightgray;
-  --global--green-font-color: rgb(90, 141, 118);
+  --global--green-font-color: oklch(0.833 0.145 321.434);
   /* Fonts */
   --global--header-font: normal 100 1em Montserrat, sans-serif;
   --global--text-font: normal 200 1em Raleway, sans-serif;
@@ -32,7 +32,7 @@ h6 {
   font: var(--global--header-font);
 }
 
-h1 {
+h2 {
   font-size: 2em;
 }
 
@@ -60,7 +60,7 @@ button:focus {
 
 .dark {
   background-color: var(--global--dark-bg-color);
-  color: var(--global--font-color);
+  color: var(--global--dark-font-color);
 }
 
 .app {
@@ -469,8 +469,8 @@ svg {
 
 .form__button {
   background-color: var(--global--dark-bg-color);
-  color: var(--global--font-color);
-  border: 1px solid var(--global--font-color);
+  color: var(--global--dark-font-color);
+  border: 1px solid var(--global--dark-font-color);
   height: 40px;
   width: 150px;
   justify-self: end;
@@ -711,18 +711,18 @@ td.price-table__service {
   width: 100%;
 }
 
-#palvelut h1,
-#palvelut h2 {
+#palvelut h2,
+#palvelut h3 {
   font-weight: 300;
-  color: rgb(90, 141, 118);
+  color: var(--global--green-font-color);
 }
-#hinnasto h1 {
+#hinnasto h2 {
   font-weight: 300;
-  color: rgb(90, 141, 118);
+  color: var(--global--green-font-color);
 }
-#yhteystiedot h1 {
+#yhteystiedot h2 {
   font-weight: 300;
-  color: rgb(90, 141, 118);
+  color: var(--global--green-font-color);
 }
 
 .service-img > img {
@@ -772,4 +772,39 @@ td.price-table__service {
   .contact {
     text-align: left;
   }
+}
+
+.helmi-mainos {
+  background-image: url('./static/jalat.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+}
+
+.helmi-mainos--content {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  gap: 2rem;
+}
+
+.helmi-mainos--content > * {
+  margin: 0;
+}
+
+.helmi-mainos--title {
+  color: var(--global--green-font-color);
+  text-align: right;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.helmi-mainos--logo {
+  align-self: last baseline;
+  width: 120px;
 }

@@ -5,7 +5,7 @@ import { GoLocation } from 'react-icons/go';
 const ContactDetails = () => (
   <section id="yhteystiedot">
     <div className="content">
-      <h1>YHTEYSTIEDOT</h1>
+      <h2>YHTEYSTIEDOT</h2>
       <div className="contact">
         <div className="contact__person">
           <p>Niina Partanen (os. Varis)</p>
