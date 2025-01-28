@@ -14,7 +14,7 @@ const Introduction = () => (
       <h2>NIINA PARTANEN</h2>
       <p>
         Koulutukseltani olen SKY-kosmetologi sekä lähihoitaja. Palveluihin
-        kuuluvat ihokarvojen hellävarainen poisto sokeroinnilla yli kymmenen
+        kuuluvat ihokarvojen hellävarainen poisto sokeroinnilla yli viidentoista
         vuoden ammattitaidolla.
       </p>
     </div>

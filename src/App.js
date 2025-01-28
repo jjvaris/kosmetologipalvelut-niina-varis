@@ -52,7 +52,7 @@ export default function App() {
                 Lapinniemen Helmi tuotteet ovat 100% luonnollisia, vegaanisia ja
                 hajusteettomia.
               </p>
-              <p>Luonnollista luksusta ihollesti - hellävaraisesti.</p>
+              <p>Luonnollista luksusta ihollesi - hellävaraisesti.</p>
               <img
                 className="helmi-mainos--logo"
                 src={helmiLogo}
