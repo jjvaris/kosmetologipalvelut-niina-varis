@@ -192,7 +192,7 @@ export default class ContactForm extends Component {
           disabled={this.state.submitting}
         >
           {this.state.submitting ? (
-            <BeatLoader size={7} color={'#FFFFFF'} />
+            <BeatLoader size={7} color={'#1a1a1a'} />
           ) : (
             'LÄHETÄ'
           )}
