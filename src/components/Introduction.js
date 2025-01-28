@@ -2,11 +2,7 @@ import React from 'react';
 import niina from '../static/niina.jpg';
 
 const Introduction = () => (
-  <section
-    id="esittely"
-    className="dark"
-    style={{ backgroundColor: '#CAC5BD' }}
-  >
+  <section id="esittely" className="dark">
     <div className="introduction content">
       <div className="avatar">
         <img className="avatar__img" src={niina} alt="Niina Partanen" />
