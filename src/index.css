@@ -785,7 +785,7 @@ td.price-table__service {
   padding: 2rem;
   background: rgba(255, 255, 255, 0.7);
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   font-weight: 500;
@@ -799,7 +799,7 @@ td.price-table__service {
 .helmi-mainos--title {
   color: var(--global--green-font-color);
   text-align: right;
-  font-size: 2.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
   margin: 0.5rem 0;
 }
@@ -807,4 +807,23 @@ td.price-table__service {
 .helmi-mainos--logo {
   align-self: last baseline;
   width: 120px;
+}
+
+@media only screen and (min-width: 350px) {
+  .helmi-mainos--content {
+    font-size: 1.2rem;
+  }
+
+  .helmi-mainos--title {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .helmi-mainos--content {
+    font-size: 1.6rem;
+  }
+
+  .helmi-mainos--title {
+    font-size: 2.2rem;
+  }
 }
